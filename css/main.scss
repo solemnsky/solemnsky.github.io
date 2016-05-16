@@ -1,0 +1,18 @@
+---
+---
+
+a.github-link {
+  text-decoration: none;
+
+  > .icon {
+    width: 50px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  > .username {
+    color: grey;
+    font-size: 25px;
+  }
+}
+

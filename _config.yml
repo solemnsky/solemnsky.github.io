@@ -1,0 +1,24 @@
+# server settings
+baseurl: "/"
+port: 4000
+encoding: utf-8
+
+# generation settings
+markdown: kramdown
+
+compress_html:
+  comments: all
+  endings: all
+  startings: [html, head, body]
+
+sass:
+  style: compressed
+
+# magic strings
+title: solemnsky
+email: zenmags@gmail.com
+description: solemnsky, the open-source competitive multiplayer 2D plane game
+url: "http://solemnsky.com" 
+github_username: solemnsky
+
+
