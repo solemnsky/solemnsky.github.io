@@ -1,7 +1,0 @@
----
-layout: homepage
----
-
-<p> solemnsky, the open-source competitive multiplayer 2D plane game </p>
-
-<p> {% include icon-github.html username=site.github_username%} </p>
