@@ -10,6 +10,8 @@ body {
   font-family: sans-serif;
 }
 
+$padding-rythm: 55px;
+
 nav#top-nav {
   $header-height: 30px;
   $text-height: 15px;
@@ -48,8 +50,8 @@ header#main-header {
   text-align: center;
   color: white;
   font-family: monospace;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: $padding-rythm;
+  padding-bottom: $padding-rythm;
 
   > .inner {
     width: 100%;
@@ -95,8 +97,8 @@ header#main-header {
 }
 
 div#description {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: $padding-rythm;
+  padding-bottom: $padding-rythm;
   text-align: center;
   overflow: hidden;
 
