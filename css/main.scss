@@ -32,8 +32,8 @@ nav#top-nav {
     color: black;
 
     &.selected {
-      $border: 4px;
-      border-bottom: 3px;
+      $border: 2px;
+      border-bottom: $border;
       border-bottom-style: solid;
       padding-bottom: $padding - $border;
     }
