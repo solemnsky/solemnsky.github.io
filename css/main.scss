@@ -55,9 +55,10 @@ header#main-header {
     width: 100%;
     max-width: 600px;
     display: inline-block;
+    vertical-align: center;
+    $height: 120px;
 
     > .left {
-      $height: 100px;
       overflow: hidden;
       float: left;
 
@@ -78,6 +79,7 @@ header#main-header {
       overflow: hidden;
       font-size: 20px;
       color: #cecece;
+      line-height: $height / 4;
 
       span {
         float: left;
