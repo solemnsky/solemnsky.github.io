@@ -153,7 +153,18 @@ div#tiles {
     display: inline-block;
     width: 400px;
 
+    > img {
+      width: 50px;
+      margin-bottom: 20px;
+    }
+
+    > header {
+      font-size: 25px;
+      padding-bottom: 5px;
+    }
+
     > p {
+      font-size: 15px;
       text-align: left;
     }
   }
