@@ -17,16 +17,32 @@ nav#top-nav {
   background-color: blue;
   height: $header-height;
 
+  overflow: hidden;
+
   > a {
-    margin-top: ($header-height - $text-height) / 2;
-    margin-right: 20px;
+    $padding: ($header-height - $text-height) / 2;
+    padding-top: $padding;
+    padding-bottom: $padding;
+    padding-right: 20px;
+    padding-left: 20px;
     line-height: $text-height;
     font-size: $text-height;
     display: inline-block;
-    vertical-align: middle;
     text-decoration: none;
     color: black;
+
+    &.selected {
+      $border: 4px;
+      border-bottom: 3px;
+      border-bottom-style: solid;
+      padding-bottom: $padding - $border;
+    }
   }
+}
+
+header#main-header {
+  height: 300px;
+  background: #1487cc
 }
 
 a.github-link {
