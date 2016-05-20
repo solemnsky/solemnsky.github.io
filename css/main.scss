@@ -54,7 +54,6 @@ header#main-header {
   padding-bottom: $padding-rythm;
 
   > .inner {
-    max-width: 600px;
     display: inline-block;
     padding-left: 10px;
     padding-right: 10px;
@@ -82,6 +81,7 @@ header#main-header {
       font-size: 20px;
       color: #cecece;
       line-height: $height / 4;
+      margin-left: 50px;
 
       span {
         float: left;
