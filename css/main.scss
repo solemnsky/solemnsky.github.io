@@ -52,7 +52,7 @@ header#main-header {
     display: inline-block;
 
     > .left {
-      $height: 60px;
+      $height: 80px;
       overflow: hidden;
       float: left;
 
@@ -71,6 +71,7 @@ header#main-header {
     > .right {
       float: right;
       overflow: hidden;
+      font-size: 20px;
 
       span {
         float: left;
