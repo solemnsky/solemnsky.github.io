@@ -13,7 +13,7 @@ body {
 nav#top-nav {
   $header-height: 30px;
   $text-height: 15px;
-  $inside-color: white;
+  $inside-color: #c5c5c5;
 
   padding-left: 100px;
   background-color: #0e6396;
@@ -151,7 +151,7 @@ div#tiles {
 
 div#tiles-inner {
   display: inline-block;
-  max-width: 1200px;
+  max-width: 1500px;
   div.tile {
     padding: 10px;
     display: inline-block;
