@@ -1,6 +1,34 @@
 ---
 ---
 
+* {
+  padding: 0px;
+  margin: 0px;
+} 
+
+body {
+}
+
+nav#top-nav {
+  $header-height: 40px;
+  $text-height: 20px;
+
+  padding-left: 100px;
+  background-color: blue;
+  height: $header-height;
+
+  > a {
+    margin-top: ($header-height - $text-height) / 2;
+    margin-right: 20px;
+    line-height: $text-height;
+    font-size: $text-height;
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+    color: black;
+  }
+}
+
 a.github-link {
   text-decoration: none;
 
