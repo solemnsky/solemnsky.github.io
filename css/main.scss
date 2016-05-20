@@ -41,8 +41,45 @@ nav#top-nav {
 }
 
 header#main-header {
-  height: 300px;
-  background: #1487cc
+  height: 200px;
+  background: #1487cc;
+  padding-top: 80px;
+  text-align: center;
+
+  > .inner {
+    width: 100%;
+    max-width: 500px;
+    display: inline-block;
+
+    > .left {
+      overflow: hidden;
+      float: left;
+      margin-top: 30px;
+
+      img.logo {
+        width: 80px;
+      }
+      
+      span.name {
+        font-size: 30px;
+      }
+    }
+
+    > .right {
+      float: right;
+      overflow: hidden;
+
+      span {
+        float: left;
+        margin-right: 10px;
+      }
+
+      div.floater {
+        display: inline-block;
+        text-align: left;
+      }
+    }
+  }
 }
 
 a.github-link {
