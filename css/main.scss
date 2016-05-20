@@ -13,7 +13,7 @@ body {
 nav#top-nav {
   $header-height: 30px;
   $text-height: 15px;
-  $inside-color: #181818;
+  $inside-color: white;
 
   padding-left: 100px;
   background-color: #0e6396;
@@ -147,7 +147,11 @@ div#tiles {
   height: 500px;
   background-color: #edf6fa;
   text-align: center;
+}
 
+div#tiles-inner {
+  display: inline-block;
+  max-width: 1200px;
   div.tile {
     padding: 10px;
     display: inline-block;
@@ -167,21 +171,6 @@ div#tiles {
       font-size: 15px;
       text-align: left;
     }
-  }
-}
-
-a.github-link {
-  text-decoration: none;
-
-  > .icon {
-    width: 50px;
-    display: inline-block;
-    vertical-align: middle;
-  }
-
-  > .username {
-    color: grey;
-    font-size: 25px;
   }
 }
 
