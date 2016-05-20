@@ -16,7 +16,7 @@ nav#top-nav {
   $inside-color: #c5c5c5;
 
   padding-left: 100px;
-  background-color: #0e6396;
+  background-color: #0067a5;
   height: $header-height;
 
   overflow: hidden;
@@ -108,8 +108,8 @@ div#description {
     }
 
     a.button {
-      $color: green;
-      $action-color: green;
+      $color: #059e05;
+      $action-color: #00b600;
 
       clear: right;
       display: inline-block;
@@ -130,13 +130,13 @@ div#description {
       text-decoration:none;
 
       &:hover { 
-              background-color: $action-color;
-              border-color: $action-color;
+        background-color: $action-color;
+        border-color: $action-color;
       }
 
       &:active { 
-              position:relative;
-              top:1px;
+        position:relative;
+        top:1px;
       }
     }
   }
