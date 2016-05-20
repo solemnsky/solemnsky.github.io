@@ -57,7 +57,8 @@ header#main-header {
     width: 100%;
     max-width: 600px;
     display: inline-block;
-    vertical-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
     $height: 120px;
 
     > .left {
@@ -103,6 +104,8 @@ div#description {
   overflow: hidden;
 
   div.inner {
+    padding-left: 10px;
+    padding-right: 10px;
     display: inline-block;
     max-width: 600px;
 
