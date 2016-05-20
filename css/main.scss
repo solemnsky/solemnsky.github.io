@@ -11,8 +11,9 @@ body {
 }
 
 nav#top-nav {
-  $header-height: 40px;
-  $text-height: 20px;
+  $header-height: 30px;
+  $text-height: 15px;
+  $inside-color: #181818;
 
   padding-left: 100px;
   background-color: #0e6396;
@@ -30,12 +31,13 @@ nav#top-nav {
     font-size: $text-height;
     display: inline-block;
     text-decoration: none;
-    color: black;
+    color: $inside-color;
 
     &.selected {
       $border: 2px;
       border-bottom: $border;
       border-bottom-style: solid;
+      border-color: $inside-color;
       padding-bottom: $padding - $border;
     }
   }
@@ -141,8 +143,20 @@ div#description {
 }
 
 div#tiles {
+  padding-top: 40px;
   height: 500px;
   background-color: #edf6fa;
+  text-align: center;
+
+  div.tile {
+    padding: 10px;
+    display: inline-block;
+    width: 400px;
+
+    > p {
+      text-align: left;
+    }
+  }
 }
 
 a.github-link {
