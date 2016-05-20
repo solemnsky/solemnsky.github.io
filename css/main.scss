@@ -44,12 +44,12 @@ nav#top-nav {
 }
 
 header#main-header {
-  height: 150px;
   background: #1487cc;
-  padding-top: 80px;
   text-align: center;
   color: white;
   font-family: monospace;
+  padding-top: 50px;
+  padding-bottom: 50px;
 
   > .inner {
     width: 100%;
@@ -144,27 +144,29 @@ div#description {
 
 div#tiles {
   padding-top: 40px;
-  height: 500px;
   background-color: #edf6fa;
   text-align: center;
+  overflow: hidden;
 }
 
 div#tiles-inner {
   display: inline-block;
   max-width: 1500px;
+
   div.tile {
-    padding: 10px;
+    margin: 20px;
+    margin-bottom: 40px;
     display: inline-block;
     width: 400px;
 
     > img {
       width: 50px;
-      margin-bottom: 20px;
+      margin-bottom: 10px;
     }
 
     > header {
       font-size: 25px;
-      padding-bottom: 5px;
+      margin-bottom: 10px;
     }
 
     > p {
