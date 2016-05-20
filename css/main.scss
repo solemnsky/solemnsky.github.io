@@ -41,7 +41,7 @@ nav#top-nav {
 }
 
 header#main-header {
-  height: 200px;
+  height: 150px;
   background: #1487cc;
   padding-top: 80px;
   text-align: center;
@@ -52,15 +52,18 @@ header#main-header {
     display: inline-block;
 
     > .left {
+      $height: 60px;
       overflow: hidden;
       float: left;
-      margin-top: 30px;
 
       img.logo {
-        width: 80px;
+        float: left;
+        width: $height;
       }
       
       span.name {
+        float: left;
+        line-height: $height;
         font-size: 30px;
       }
     }
@@ -71,7 +74,7 @@ header#main-header {
 
       span {
         float: left;
-        margin-right: 10px;
+        margin-right: 5px;
       }
 
       div.floater {
@@ -80,6 +83,12 @@ header#main-header {
       }
     }
   }
+}
+
+div#description {
+  height: 100px;
+  padding-top: 40px;
+  text-align: center;
 }
 
 a.github-link {
