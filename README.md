@@ -12,3 +12,10 @@ The principle selling points of solemnsky are those summarized in our mantra, "t
 
 It's important to depict these points clearly, in order to establish an clear and honest image of what solemnsky is, and ultimately pitch the project to the audience that can appreciate it best.
 
+
+### TODO LIST 
+
+ * solemnsky manifesto, for the about page on the site
+ * incorporate status updates into the site
+ * put manual into the site for easy reading
+
