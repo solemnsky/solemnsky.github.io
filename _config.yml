@@ -16,9 +16,7 @@ sass:
 
 # magic strings
 title: solemnsky
-email: zenmags@gmail.com
 description: solemnsky, the open-source competitive multiplayer 2D plane game
 url: "http://solemnsky.com" 
-github_username: solemnsky
-
+github-url: "http://github.com/solemnsky/solemnsky"
 

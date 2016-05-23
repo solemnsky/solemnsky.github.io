@@ -10,14 +10,15 @@ body {
   font-family: sans-serif;
 }
 
+$head-foot-color: #0067a5;
+$head-foot-inside-color: #c5c5c5;
 $padding-rythm: 55px;
 
 nav#top-nav {
   $header-height: 30px;
   $text-height: 15px;
-  $inside-color: #c5c5c5;
 
-  background-color: #0067a5;
+  background-color: $head-foot-color;
   height: $header-height;
   text-align: center;
 
@@ -33,13 +34,13 @@ nav#top-nav {
     font-size: $text-height;
     display: inline-block;
     text-decoration: none;
-    color: $inside-color;
+    color: $head-foot-inside-color;
 
     &.selected {
       $border: 2px;
       border-bottom: $border;
       border-bottom-style: solid;
-      border-color: $inside-color;
+      border-color: $head-foot-inside-color;
       padding-bottom: $padding - $border;
     }
   }
@@ -97,6 +98,8 @@ header#main-header {
 }
 
 div#description {
+  $size: 20px;
+
   padding-top: $padding-rythm;
   padding-bottom: $padding-rythm;
   text-align: center;
@@ -109,20 +112,29 @@ div#description {
     max-width: 600px;
 
     p {
-      font-size: 18px;
+      font-size: $size;
       margin-bottom: 10px;
 
       span.em {
-        font-style: oblique;
+        text-decoration: underline;
       }
     }
   }
 
   div.links {
+    .github-icon {
+      margin-left: 7px;
+      width: $size * 1.5;
+      vertical-align: middle;
+    }
+    
     a.button {
       $color: #059e05;
       $action-color: #00b600;
+      $lesser-color: #48a553;
+      $lesser-action-color: #50bc5c;
 
+      line-height: $size * 1.5;
       clear: right;
       display: inline-block;
       margin: 10px;
@@ -135,11 +147,20 @@ div#description {
 
       background-color: $color;
 
-      cursor:pointer;
+      cursor: pointer;
       color: #ffffff;
-      font-size:17px;
-      padding:5px 20px;
-      text-decoration:none;
+      font-size: $size;
+      padding: 5px 20px;
+      text-decoration: none;
+
+      &.lesser {
+        background-color: $lesser-color;
+        border-color: $lesser-color;
+        &:hover {
+          background-color: $lesser-action-color;
+          border-color: $lesser-action-color;
+        }
+      }
 
       &:hover { 
         background-color: $action-color;
@@ -156,6 +177,7 @@ div#description {
 
 div#tiles {
   padding-top: $padding-rythm;
+  padding-bottom: $padding-rythm;
   background-color: #edf6fa;
   text-align: center;
   overflow: hidden;
@@ -186,6 +208,20 @@ div#tiles-inner {
       font-size: 15px;
       text-align: left;
     }
+  }
+}
+
+footer#end-footer {
+  padding-top: $padding-rythm; 
+  background-color: $head-foot-color;
+  padding-bottom: $padding-rythm;
+  color: $head-foot-inside-color;
+  text-align: center;
+
+  > .contents {
+    display: inline-block;
+    max-width: 1600px;
+    text-align: left;
   }
 }
 
