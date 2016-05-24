@@ -15,7 +15,7 @@ It's important to depict these points clearly, in order to establish an clear an
 
 ### TODO LIST 
 
- * solemnsky manifesto, for the about page on the site
+ * about page
  * incorporate status updates into the site
  * put manual into the site for easy reading
 
